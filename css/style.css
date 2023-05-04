@@ -1,0 +1,25 @@
+
+
+@keyframes blinking{
+    50% {color: blue;}
+    100%{color: burlywood}
+    20%{color: chartreuse}
+    80%{
+        opacity: .5
+    }
+}
+.yy{
+font-size: 25px;
+animation: blinking 1200ms infinite;
+color: gold;
+position:fixed; 
+bottom:0; right: 0; 
+width: 100px"
+}
+.run{
+    font-size: 25px;
+animation: blinking 1200ms infinite;
+color: gold;
+text-align: center;
+
+}
